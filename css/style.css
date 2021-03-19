@@ -29,7 +29,15 @@ nav {
     background-color: pink;
 }
 
-#logo-container {
+.logo-container {
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 20%;
+    padding-right: 20px;
+    border-right: 1px solid lightgray;
 }
 
 /* menu in alto */
@@ -56,13 +64,19 @@ nav {
     /* color:black; */
 /* } */
 
-
-
 /* banner */
 .banner {
-    height: 420px;
+    height: 500px;
     margin: 20px 0;
+    border-radius: 10px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
     background-color: burlywood;
+}
+
+.testo-banner {
+    width: 60%;
+    padding: ;
 }
 
 /* MAIN */
@@ -86,23 +100,56 @@ nav {
 }
 
 .lato {
-    height: 500px;
+    /* height: 500px; */
     width: 22%;
     background-color: lightskyblue;
 }
 
 .centro {
-    height: 500px;
-    width: 54%;
-    margin: 0 1%;
+    /* height: 500px; */
+    width: 52%;
+    margin: 0 2%;
     background-color: lightskyblue;
 }
 
+
+.immagine1 {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 footer {
-    height: 70px;
+    height: ;
     margin-top: 10px;
-    background-color: purple;
+    background-color: ;
+    text-align: center;
+}
+
+#cuore {
+    color: red;
+    font-size: 25px;
 }
 
 
