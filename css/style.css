@@ -1,0 +1,110 @@
+/* common */
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* font family */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* layout */
+.layout {
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* uncommon */
+/* HEADER */
+/* nav */
+nav {
+    height: 140px;
+    background-color: pink;
+}
+
+#logo-container {
+}
+
+/* menu in alto */
+.list-inline > li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px 10px 0;
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* cambio il colore sul link quando ci passo sopra */
+.list-inline a:hover {
+    color: black;
+}
+
+/* cambia il colore su "a" ma selezionando "li"  */
+/* .list-inline li:hover > a { */
+    /* color:black; */
+/* } */
+
+
+
+/* banner */
+.banner {
+    height: 420px;
+    margin: 20px 0;
+    background-color: burlywood;
+}
+
+/* MAIN */
+/* blocco */
+#blocco {
+    padding-bottom: 20px;
+    background-color: blue;
+}
+
+/* titolo blocco */
+.title {
+    height: 75px;
+    margin-bottom: 20px;
+    background-color: lightskyblue;
+}
+
+/* .container dei float */
+/* rettangoli  */
+.left {
+    float: left;
+}
+
+.lato {
+    height: 500px;
+    width: 22%;
+    background-color: lightskyblue;
+}
+
+.centro {
+    height: 500px;
+    width: 54%;
+    margin: 0 1%;
+    background-color: lightskyblue;
+}
+
+/* FOOTER */
+footer {
+    height: 70px;
+    margin-top: 10px;
+    background-color: purple;
+}
+
+
+/* settare le immagini come background image */
+/* background color rgba */
