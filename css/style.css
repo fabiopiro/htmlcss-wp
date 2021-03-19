@@ -20,38 +20,32 @@ body {
     width: 80%;
     margin: 20px auto;
 }
-
+/* testo */
 .gray {
     color: gray;
 }
-
 .white {
     color: white;
 }
 
 /* uncommon */
 /* HEADER */
-
-
 .logo-container {
-    /* background-color: aqua; */
     margin-bottom: 40px;
+    /* background-color: aqua; */
 }
-
 #logo {
     width: 15%;
     /* padding-right: 20px; */
     /* border-right: 1px solid lightgray; */
 }
-
-/* menu in alto */
-
 /* nav */
 nav {
     margin-bottom: 40px;
     /* background-color: pink; */
 }
-
+/* menu */
+/* è una ul "potenziata" */
 .list-inline > li {
     display: inline-block;
     list-style: none;
@@ -65,15 +59,15 @@ nav {
     font-size: 18px;
 }
 
-/* cambio il colore sul link quando ci passo sopra */
+/* cambio colore link al passaggio del mouse */
 .list-inline a:hover {
     color: black;
 }
 
 /* cambia il colore su "a" ma selezionando "li"  */
 /* .list-inline li:hover > a { */
-    /* color:black; */
-    /* } */
+    /* color:black;  */
+/* } */
 
 /* banner */
 .banner {
@@ -92,23 +86,18 @@ nav {
     background-color: rgba(0, 0, 0, 0.2);
     display: inline-block;
 }
-.testo-banner {
+
+.banner-text {
     width: 60%;
     padding-top: 400px;
     padding-left: 50px;
 }
-
 h2 {
     font-size: 30px;
 }
 
 /* MAIN */
 /* blocco */
-#blocco {
-    padding-bottom: 20px;
-    /* background-color: blue; */
-}
-
 /* titolo blocco */
 .title {
     margin-bottom: 40px;    /* background-color: lightskyblue; */
@@ -120,13 +109,13 @@ h2 {
     float: left;
 }
 
-.lato {
+.side {
     /* height: 500px; */
     width: 22%;
     /* background-color: lightskyblue; */
 }
 
-.centro {
+.center {
     /* height: 500px; */
     width: 52%;
     margin: 0 2%;
@@ -146,7 +135,6 @@ h3 {
     background-position: center;
     margin-bottom: 20px;
 }
-/*  */
 .img-overlay {
     height: 250px;
     width: 100%;
@@ -154,6 +142,23 @@ h3 {
     background-color: rgba(0, 0, 0, 0.2);
     display: inline-block;
 }
+
+/* se provo a fare questo mi sballa l'img centrale
+.img .img-overlay {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+.img {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+ }
+ .img-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}  */
+
 .img-sx {
     background-image: url(../img/img-1.jpg);
 }
@@ -166,7 +171,7 @@ h3 {
 
 /* FOOTER */
 footer {
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 #cuore {
