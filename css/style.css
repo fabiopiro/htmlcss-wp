@@ -77,15 +77,16 @@ nav {
 
 /* banner */
 .banner {
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
     margin-bottom: 40px;
     background-image: url(../img/banner.jpg);
     background-size: cover;
+    background-position: center;
     /* background-color: burlywood; */
 }
 .banner-overlay {
-    height: 500px;
+    height: 600px;
     width: 100%;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -93,8 +94,12 @@ nav {
 }
 .testo-banner {
     width: 60%;
-    padding-top: 350px;
+    padding-top: 400px;
     padding-left: 50px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 /* MAIN */
@@ -106,8 +111,7 @@ nav {
 
 /* titolo blocco */
 .title {
-    margin-bottom: 20px;
-    /* background-color: lightskyblue; */
+    margin-bottom: 40px;    /* background-color: lightskyblue; */
 }
 
 /* .container dei float */
@@ -129,12 +133,17 @@ nav {
     /* background-color: lightskyblue; */
 }
 
+h3 {
+    margin-bottom: 20px;
+}
+
 /* immagini */
 .img {
     height: 250px;
     width: 100%;
     border-radius: 10px;
     background-size: cover;
+    background-position: center;
     margin-bottom: 20px;
 }
 /*  */
@@ -160,7 +169,6 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
-
 #cuore {
     color: red;
     font-size: 25px;
